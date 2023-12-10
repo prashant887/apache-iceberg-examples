@@ -63,7 +63,7 @@ public class GlueCatalogExample {
             System.out.println(table.name());
         }
 
-        TableIdentifier ctas_iceberg_parquet = TableIdentifier.of(artemis, "ctas_iceberg_parquet");
+        TableIdentifier ctas_iceberg_parquet = TableIdentifier.of(artemis, "iceberg_spark_simple");
 
 
         Table table=catalog.loadTable(ctas_iceberg_parquet);
